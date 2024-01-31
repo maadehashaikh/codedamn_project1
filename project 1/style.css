@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 10px;
+}
+body{
+    background-color: rgb(58, 58, 189);
+    width: 100%;
+    height: 100%;
+}
+.mainDiv{
+    width: 24%;
+    height: 75%;
+    background-color:rgb(210, 212, 245);
+    position: absolute;
+    top: 14%;
+    left: 32%;
+    border-radius: 4%;
+    box-shadow: 5px 3px 12px black;
+}
+.pro{
+    position: absolute;
+    top: 10px;
+    left: 17px;
+    width: 43px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: yellow;
+
+}
+.profileimg{
+    width: 35%;
+    height: 27%;
+    border-radius: 70%;
+    border: 2px solid rgb(101, 101, 235);
+    position: relative;
+    left: 29%;
+    top: 32px;
+}
+.name{
+    font-size: 22px;
+    position: relative;
+    top: 10%;
+    left: 20%;
+}
+.country{
+    position: relative;
+    top: 11%;
+    left: 32%;
+}
+.profession{
+    position: relative;
+    top: 14%;
+    left: 21%;
+    font-size: 18px;
+}
+.msg{
+    position: relative;
+    top: 14%;
+    left: 15%;
+    padding: 5px 10px;
+    border: 2px solid skyblue;
+    color: skyblue;
+    margin: 5px;
+}
+.following{
+    position: relative;
+    top: 14%;
+    left: 15%;
+    padding: 5px 10px;
+    border: 2px solid skyblue;
+    color: skyblue;
+}
+.msg:hover, .following:hover{
+    color: white;
+    background-color: darkblue;
+    border: 2px solid white;
+}
+.icons{
+    position: relative;
+    top: 15%;
+    left: 18%;
+    display: inline-block;
+}
+i{
+    padding: 8px;
+    width: 17%;
+   font-size: 20px;
+}
+.skills{
+    position: relative;
+    top: 15%;
+    font-size: 17px;
+    left: 5%;
+}
+.skillslist{
+    position: relative;
+    top: 16%;
+}
+.skillslist h5{
+    display: inline-block;
+    border: 1px solid black;
+    font-size: 14px;
+    padding: 4px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px;
+    margin: 3px;
+}
+
+
+
